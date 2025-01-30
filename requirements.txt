@@ -1,0 +1,6 @@
+streamlit
+pandas
+joblib
+scikit-learn  # Needed for label encoding
+xgboost       # Since you're using an XGBoost model
+numpy         # Required for numerical operations
