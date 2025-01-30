@@ -15,7 +15,7 @@ fuel_types = sorted(dataset['fuel_type'].unique())
 transmissions = sorted(dataset['transmission_type'].unique())
 
 # Streamlit UI
-st.title("Car Price Prediction")
+st.title("Predict Used Car price")
 
 # Input fields for the car's features
 selected_brand = st.selectbox("Select Brand", brands)
